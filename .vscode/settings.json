@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        "venv/": true,
+        "**/__pycache__": true,
+        "MyPackageName.egg-info": true,
+        "PY_DS.egg-info": true,
+        ".pytest_cache": true
+    },
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.formatting.provider": "black",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

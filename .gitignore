@@ -1,1 +1,6 @@
 venv
+**.pyc
+MyPackageName.egg-info
+__pycache__
+.pytest_cache
+PY_DS.egg-info
